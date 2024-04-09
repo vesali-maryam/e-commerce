@@ -1,0 +1,513 @@
+
+body{
+    direction: rtl;
+    font-family: IRANSansWeb Medium !important;
+}
+a{
+    text-decoration:none
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    background: #0c0b0b;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    background: transparent;
+    -webkit-transition: all ease-out .5s;
+    -moz-transition: all ease-out .5s;
+    -o-transition: all ease-out .5s;
+    transition: all ease-out .5s;
+}
+.active {
+    background-color: white;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background: black;
+}
+
+.item-color{
+   color: white;
+
+}
+
+.main{
+    width: 1200px;
+    height: 1900px;
+    background: #0a53be;
+    margin: 22px;
+
+}
+.bg-profile{
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+}
+.bg-profile-item{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.bg-white-end{
+    width: 100%;
+    height: 1500px;
+    background: #ffffff;
+}
+.box-profile{
+    width: 100%;
+    height: 200px;
+}
+.bg-box-1{
+    width: 90%;
+    height: 180px;
+    background:white;
+    border-radius: 5px;
+    border: solid 1px gray;
+    z-index: 1;
+    margin-right: 46px;
+    box-shadow:0px 1px 6px #e6e6e6;
+    display: flex;
+    padding: 5px;
+    align-content: center;
+
+}
+.card .card-body {
+    padding:1.5rem
+
+}
+.avatar-bg{
+    width: 20%;
+    height: 100%;
+}
+
+.avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    overflow: hidden;
+    margin: 15px 20px 10px 20px;
+}
+.text-item{
+    width: 40%;
+    height: 100%;
+}
+.title{
+    font-size: 18px;
+}
+.text-color{
+    color: darkgray;
+}
+.id{
+    width: 100%;
+    height: 15%;
+    display: flex;
+}
+.id-instagram{
+    width: 30%;
+    height: 100%;
+    display: flex;
+}
+.textItem2{
+    width: 60%;
+    height: 20%;
+    margin-top: 94px;
+    margin-right: 190px;
+}
+
+.button {
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.buttonItem {
+    background-color: white;
+    color: darkgray;
+    border: 1px solid #e7e7e7;
+}
+
+.buttonItem:hover {background-color:#0b5ed7;}
+
+.icon:hover {color:white;}
+
+.icon{
+    color:darkgray;
+}
+
+.maryam{
+    width: 100%;
+    height: 300px;
+    background: red;
+}
+.logo{
+    width: 30%;
+    height: 80%;
+    position: relative;
+}
+.logo-1{
+    padding: 36px 100px 0px 0px;
+    position: absolute;
+
+}
+.nav-1{
+    width:60%;
+    height: 80%;
+}
+
+
+
+
+body {
+    direction: rtl;
+    font-size: 14px;
+    text-align: right;
+    color: #303030;
+    line-height: 30px;
+    font-family: 'iransans';
+}
+
+.main-menu {
+    float: right;
+}
+.main-menu > ul > li {
+    float: right;
+    list-style: none;
+    position: relative;
+}
+.main-menu ul li a {
+    padding: 26px 22px;
+    display: inline-block;
+    font-size: 14px;
+    text-decoration: none;
+    color: #383636;
+    font-weight: bold;
+}
+.main-menu ul li a i {
+    margin-right: 5px;
+}
+.main-menu ul li ul {
+    position: absolute;
+    width: 150px;
+    background: #fff;
+    top: 115px;
+    right: 0;
+    box-shadow: 0px 1px 6px #e6e6e6;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .2s ease-in-out;
+    z-index: 999;
+    border-radius: 5px;
+}
+.main-menu ul li ul li {
+    list-style: none;
+}
+.main-menu ul li ul li a {
+    padding: 9px 15px;
+    display: block;
+    font-weight: normal;
+
+}
+.main-menu ul li ul li a:hover {
+    color: #0520cb;
+}
+.main-menu > ul > li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    top: 83px;
+}
+
+.btn-by{
+    width: 15%;
+    height: 80%;
+    margin: 10px auto;
+}
+
+.btn-by-item{
+    background: white;
+    border-radius: 5px;
+    width: 130px;
+    height: 50%;
+    margin: 15px auto;
+    border-block: white;;
+}
+.details{
+    width: 91%;
+    height: 1160px;
+    margin-right: 46px;
+    display: flex;
+}
+.detailsRight{
+    width: 35%;
+    height: 100%;
+}
+.detailsLeft{
+    width: 65%;
+    height: 100%;
+}
+.table{
+    border-radius: 8px;
+    border: 2px solid #cecdcd;
+    width: 93%;
+    height: 940px;
+    box-shadow:0px 1px 6px #e6e6e6;
+    background: white;
+    padding: 10px;
+    margin-top: 105px;
+}
+.flowerItem{
+    height: 5%;
+    width: 95%;
+    margin: 5px;
+
+}
+.flowing{
+    width: 95%;
+    height: 12%;
+    display: flex;
+    margin: 5px;
+}
+.flowingItem{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+
+}
+.fontItem{
+    color:darkgray;
+    margin-top: -21px;
+}
+.user{
+    color:#0b5ed7;
+    margin-top: 5px;
+}
+
+.item{
+    width: 100%;
+    height: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#myProgress {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 10px;
+}
+
+#myBar {
+    width: 1%;
+    height: 10px;
+    background-color: #0a53be;
+}
+.ProgressBox{
+    width: 95%;
+    height: 60%;
+    margin: 5px;
+}
+.sidebarBox{
+    width: 100%;
+    height: 80%;
+    margin-top: 5px;
+}
+.vertical-menu {
+    width: 344px;
+}
+
+.vertical-menu a {
+
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid #cecdcd;
+    margin-top: 8px;
+    box-shadow:0px 1px 6px #e6e6e6;
+}
+
+.vertical-menu a:hover {
+    background-color:#0a58ca;
+    color: white;
+}
+
+.vertical-menu a.active {
+    background-color: #0a58ca;
+    color: white;
+}
+.sideIcon{
+    color: black;
+    margin: 0px 10px auto;
+    width: 20px;
+    height: 20px;
+}
+
+.fontSize{
+    font-size: large;
+}
+
+.sideIcon:hover {color:white;}
+
+.iconInfo{
+    width: 95%;
+    height: 10%;
+    margin: 5px;
+}
+.followUs{
+    height: 45%;
+    width: 95%;
+    margin: 5px;
+}
+.info{
+    width: 98%;
+    height: 13%;
+    margin-right: 10px;
+}
+.border-bottom{
+    border-bottom:1px solid #cecdcd;
+}
+.PersonalDetails{
+    width: 98%;
+    height: 41%;
+    margin-right: 10px;
+    display: flex;
+}
+.personal{
+    width: 50%;
+    height: 100%;
+}
+.personalItem{
+    width: 90%;
+    height: 11%;
+    align-content: center;
+    display: flex;
+
+}
+.part{
+    width: 90%;
+    height: 100%;
+}
+.personalItemData{
+    width: 90%;
+    height: 40%;
+}
+
+.personalItemIcon{
+    width: 10%;
+    height: 100%;
+}
+.iconStyle{
+    font-size:18px;
+    color:#a7acb1;
+    margin: 30px 2px;
+}
+.text-style {
+    color:#a7acb1 !important;
+    direction: rtl;
+}
+.text-primary {
+    color:#2f55d4 !important
+}
+.experience{
+    width: 90%;
+    height: 90px;
+    background: white;
+    border-radius: 8px;
+    border: 1px solid #a7acb1;
+    margin-top: 33px;
+    display: flex;
+    padding: 5px;
+}
+.pic{
+    width: 15%;
+    height: 100%;
+}
+.text{
+    width: 85%;
+    height: 100%;
+}
+.detailsText{
+    font-size: 14px;
+    color:#a7acb1;
+    margin: 0px 5px 0px 0px;
+}
+
+.experience:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-box-shadow: 0 5px 13px rgba(60,72,88,0.2) !important;
+    box-shadow: 0 5px 13px rgba(60,72,88,0.2) !important;}
+.news{
+    width: 98%;
+    height: 42%;
+    margin-right: 10px;
+}
+.newsItem{
+    width:100%;
+    height: 86%;
+    display: flex;
+}
+.newsItem1{
+    width: 49%;
+    height: 100%;
+    margin: 5px 5px 2px 2px;
+    border: 1px solid #a7acb1;
+    border-radius: 8px;
+    background: white;
+}
+.section1{
+    width: 100%;
+    height:70%;
+    overflow: hidden;
+    border-radius: 5px 5px 0px 0px;
+}
+.section2{
+    width: 100%;
+    height:15%;
+
+}
+.titer{
+    font-size: 18;
+    color: black;
+}
+.section3{
+    width: 100%;
+    height: 10%;
+}
+/*.iconNews{*/
+/*    width: 80px;*/
+/*    height: 30px;*/
+/*    background: #6f42c1;*/
+/*    margin: 5px;*/
+/*}*/
+
+.like {
+    font-size:15px;
+    -webkit-transition:all 0.5s ease;
+    transition:all 0.5s ease;
+    padding: 5px;
+    color:  #a7acb1;
+}
+.iconNews{
+    font-size:12px;
+    color:#a7acb1;
+    margin-left: 5px;
+}
+.iconNews.like:hover {color:green;}
+
